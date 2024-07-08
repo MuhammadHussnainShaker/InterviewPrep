@@ -1,0 +1,59 @@
+String: {
+  str.replace: {
+    "let newArr = 'Hello World'
+    newArr = newArr.replace('l', 'i') or (/l/g, 'i')
+    console.log(newArr)"
+  }
+  str.split: {
+    A string that identifies character or characters to use in separating the string. If omitted, a single-element array containing the entire string is returned.
+
+    Split a string into substrings using the specified separator and return them as an array.
+  }
+  str.slice: {
+
+  }
+  str.indexOf: {
+    finds the index the specified entity in a string
+    Params:
+    1st: checking entity
+    2nd: starting index
+  }
+  str.toLowerCase() {
+    convertes string letters to lower case
+    returns string
+  }
+  str.toUpperCase() {
+    convertes string letters to upper case
+  }
+  str.charAt() {
+    charAt(pos: number): string
+    The zero-based index of the desired character.
+    Returns the character at the specified index.
+  }
+}
+
+Array: {
+  Array.from(str): {
+    Creates an array from an array-like object. But when converts string with it, it adds commas after every character
+  }
+  arr.sort(): {
+    "Sorts an array in place. This method mutates the array and returns a reference to the same array."
+  }
+  arr.reverse(): {
+    reverses the array
+  }
+  arr.join(): {
+    Adds all the elements of an array into a string, separated by the specified separator string.
+
+    @param separator — A string used to separate one element of the array from the next in the resulting string. If omitted, the array elements are separated with a comma.
+  }
+  arr.push(): {
+    matchingElementsArr.push(element)
+  }
+  arr.map(): {
+    arr.map((item) => (element === item ? matchingElementsArr.push(element) : null))
+  }
+}
+
+Object: {
+}
