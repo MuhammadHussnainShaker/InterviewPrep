@@ -12,6 +12,11 @@ The concept that enables inner function to have access to variables and function
 
 ### Why do we use state variable instead of simple variable in React.js
 Because changes in state variable initiates re-render which would not have possible with simple variable.
+
+## HTML
+
+## CSS
+
 ## OOP
 
 ## DSA
@@ -24,7 +29,7 @@ Because changes in state variable initiates re-render which would not have possi
 
 Time complexity between array and linked list.
 
-### Stack vs Queue or LIFI vs FIFO
+### Stack vs Queue or LIFI vs FIFO or DFS vs BFS
 
 ## SQL
 
