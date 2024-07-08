@@ -11,7 +11,7 @@ The concept that enables inner function to have access to variables and function
 ### Hoisting in JS
 
 ### Why do we use state variable instead of simple variable in React.js
-
+Because changes in state variable initiates re-render which would not have possible with simple variable.
 ## OOP
 
 ## DSA
