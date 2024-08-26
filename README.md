@@ -6,9 +6,10 @@ A repository to store resource to prepare for JS interviews.
 
 ### Closures in JS
 
-The concept that enables inner function to have access to variables and function of outer function is known as closure in JavaScript.
+[Redo] The concept that enables inner function to have access to variables and function of outer function is known as closure in JavaScript.
 
 ### Hoisting in JS
+JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.
 
 ### Why do we use state variable instead of simple variable in React.js
 Because changes in state variable initiates re-render which would not have possible with simple variable.
