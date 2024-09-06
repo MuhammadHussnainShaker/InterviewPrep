@@ -186,7 +186,7 @@ function matchingElements (arr) {
 (matchingElements([1, 2, 3, 5, 3])) // 3
 ```
 
-### Ho do you check if a number is prime or not?
+### How do you check if a number is prime or not?
 ```js
 function isPrime(n) {
   if (n === 0 || n === 1) {
@@ -204,4 +204,47 @@ function isPrime(n) {
   return true
 }
 console.log(isPrime(13))
+```
+
+### Write a fuction that takes an array of numbers and returns duplicate elements in new array
+```js
+function findDuplicate (inputArray) {
+  let finalArray = []
+
+  for (let i = 0; i < inputArray.length; i++) {
+
+    for(let j = i + 1; j < inputArray.length; j++) {
+      if (inputArray[i] === inputArray[j]) {
+        finalArray.push(inputArray[i])
+      }
+    }
+  }
+  return finalArray
+}
+
+console.log(findDuplicate([1, 3, 2, 4, 4, 5, 6, 6]))
+
+// unbelieveable
+```
+
+### Write a function that takes an array of numbers and return sum of unique number
+```js
+function sumOfUniqueNumbers(inputArray) {
+  let sum = 0
+  for (let i = 0; i < inputArray.length; i++) {
+    if (inputArray[i] === 0) continue
+    for (let j = i + 1; j < inputArray.length; j++) {
+      if (inputArray[i] === inputArray[j]) {
+        inputArray[i]=0
+        inputArray[j]=0
+      }
+    }
+  }
+  let finalArray = inputArray.map((value)=>sum+=value)
+
+  return sum
+}
+console.log(sumOfUniqueNumbers([1, 2, 3, 4, 3,4]))
+
+// unbelieveable
 ```
