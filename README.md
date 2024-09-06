@@ -2,6 +2,10 @@
 
 A repository to store resource to prepare for JS interviews.
 
+## React Topics
+### useEffect
+useEffect aik React ka hook hai jo jab bhi kisi component ka render hota hai ya uska koi data ya state change hota hai, us waqt kuch kaam karne ke liye use hota hai. Yeh aik tareeqa hai kisi bhi function ko chalane ka jab bhi koi zaroori cheez tabdeel hoti hai ya jab component pehli dafa load hota hai.
+
 ## JavaScript Topics
 
 ### Closures in JS
