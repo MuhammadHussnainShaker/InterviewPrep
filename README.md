@@ -3,8 +3,24 @@
 A repository to store resource to prepare for JS interviews.
 
 ## React Topics
+
+### Context API
+#### useReducer
+
 ### useEffect
 useEffect aik React ka hook hai jo jab bhi kisi component ka render hota hai ya uska koi data ya state change hota hai, us waqt kuch kaam karne ke liye use hota hai. Yeh aik tareeqa hai kisi bhi function ko chalane ka jab bhi koi zaroori cheez tabdeel hoti hai ya jab component pehli dafa load hota hai.
+
+### useEffectLayout
+To render the layout after the useEffect has completed it's execution
+
+### useMemo
+#### Examples
+- Calculating average rating
+
+### useCallback
+#### Examples
+- Search input field
+- Calling child component in parent and avoiding to be rendered on every parent render
 
 ### Node.js Topics
 ## Stream vs buffer?
@@ -23,6 +39,16 @@ Because changes in state variable initiates re-render which would not have possi
 
 ### Higher Order Functions
 The function that can accept functions as parameters or return functions as a result.
+
+### setTimeout
+#### Uses
+- To show splash screen
+- To show error or success popup
+- To show notification popup
+
+### setInterval
+#### Uses
+- In quizzes to decrement 60 seconds on every question
 
 ## HTML
 
