@@ -30,6 +30,7 @@ To render the layout after the useEffect has completed it's execution
 ### Closures in JS
 
 [Redo] The concept that enables inner function to have access to variables and function of outer function is known as closure in JavaScript.
+Closures are an ability of a function to remember the variables and functions that are declared in its outer scope.
 
 ### Hoisting in JS
 JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.
