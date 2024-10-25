@@ -4,6 +4,9 @@ A repository to store resource to prepare for Software Engineering interviews.
 
 ## React Topics
 
+### Why do we use state variable instead of simple variable in React.js
+Because changes in state variable initiates re-render which would not have possible with simple variable.
+
 ### Context API
 #### useReducer
 
@@ -27,6 +30,17 @@ To render the layout after the useEffect has completed it's execution
 
 ## JavaScript Topics
 
+### What are differences between arrow and normal functions?
+
+| Feature                         | Normal Functions                                                                                           | Arrow Functions                                                                                       |
+|---------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Arguments Object**            | Has `arguments` object for accessing function parameters.                                                  | No `arguments` object; use rest parameters instead.                                                   |
+| **`this` Binding**              | `this` is defined by the object calling the function.                                                      | `this` is lexically inherited from the surrounding scope.                                             |
+| **Use as Constructors**         | Can be used as constructors (i.e., with `new` keyword).                                                    | Cannot be used as constructors; will throw an error if attempted.                                     |
+| **Declaration vs. Expression**  | Can be either declared (`function foo() {}`) or expressed (`const foo = function() {}`).                   | Only used as expressions (`const foo = () => {}`).                                                    |
+| **Hoisting**                    | Hoisted, so they can be called before initialization.                                                      | Not hoisted, so cannot be accessed before they are defined.                                           |
+| **Best Use Cases**              | Useful in object methods, constructors, and when needing `this` or `arguments`.                           | Great for callbacks, functional programming, and simple functions where `this` is not required.       |
+
 ### Closures in JS
 
 [Redo] The concept that enables inner function to have access to variables and function of outer function is known as closure in JavaScript.
@@ -34,9 +48,6 @@ Closures are an ability of a function to remember the variables and functions th
 
 ### Hoisting in JS
 JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.
-
-### Why do we use state variable instead of simple variable in React.js
-Because changes in state variable initiates re-render which would not have possible with simple variable.
 
 ### Higher Order Functions
 The function that can accept functions as parameters or return functions as a result.
