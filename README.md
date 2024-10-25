@@ -1,6 +1,6 @@
 # InterviewPrep
 
-A repository to store resource to prepare for JS interviews.
+A repository to store resource to prepare for Software Engineering interviews.
 
 ## React Topics
 
