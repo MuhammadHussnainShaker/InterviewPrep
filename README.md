@@ -67,6 +67,9 @@ The function that can accept functions as parameters or return functions as a re
 ## CSS
 
 ## OOP
+### What is polymophism?
+### Overloading vs Overriding
+If we create multiple functions with same name but different type or number of arguments, it is known as overloading.
 
 ## DSA
 
