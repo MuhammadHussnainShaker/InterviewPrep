@@ -17,10 +17,12 @@ useEffect aik React ka hook hai jo jab bhi kisi component ka render hota hai ya 
 To render the layout after the useEffect has completed it's execution
 
 ### useMemo
+It is used to memoize the result of a function.
 #### Examples
 - Calculating average rating
 
 ### useCallback
+It is used to memoize the function itself.
 #### Examples
 - Search input field
 - Calling child component in parent and avoiding to be rendered on every parent render
