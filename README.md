@@ -25,6 +25,13 @@ To render the layout after the useEffect has completed it's execution
 - Search input field
 - Calling child component in parent and avoiding to be rendered on every parent render
 
+### Higher Order Components
+Higher order component is basically a function that takes a component as an argument 
+and returns a new enhanced component.
+#### Examples
+For example we pass Dashboard component to a function that returns Dashbaord component if
+user is authenticated, else returns the login component.
+
 ### Node.js Topics
 ## Stream vs buffer?
 
