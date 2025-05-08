@@ -89,14 +89,19 @@ If we define a function in a child class with the same name as a function in the
 ## DSA
 
 ### Linked List
+Linked list is a data structure where elements are stored in non contagious form in memory. It consists of two parts, a node which stores data and a pointer to the next or previous node.
 
 #### Singly
+It has a node and a pointer to the next node.
 
 #### Doubly
+It has a node and two pointers to the next and previous nodes.
 
 Time complexity between array and linked list.
 
 ### Stack vs Queue or LIFI vs FIFO or DFS vs BFS
+Stack stores data like pile of plates and follows Last In First Out.
+Queue stores data like a ticket line and follows First In First Out.
 
 ## SQL
 
