@@ -78,7 +78,13 @@ The function that can accept functions as parameters or return functions as a re
 ## OOP
 ### What is polymophism?
 ### Overloading vs Overriding
-If we create multiple functions with same name but different type or number of arguments, it is known as overloading.
+If we create multiple functions with same name but different type or number of arguments in the same class, it is known as overloading.
+
+If we define a function in a child class with the same name as a function in the parent class, it is known as overriding.  
+
+### Key Difference:  
+- **Overloading**: Same function name, different parameters (in the same class).  
+- **Overriding**: Same function name and parameters, but in a derived class (inheritance).
 
 ## DSA
 
