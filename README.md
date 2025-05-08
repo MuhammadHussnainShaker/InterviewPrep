@@ -71,6 +71,25 @@ The function that can accept functions as parameters or return functions as a re
 #### Uses
 - In quizzes to decrement 60 seconds on every question
 
+### indexOf vs findIndex
+In findIndex, a cb is passed to this function that passes each item and check against our given condition.
+| Feature    | `indexOf`                     | `findIndex`                  |
+| ---------- | ----------------------------- | ---------------------------- |
+| Use case   | Simple values                 | Conditional logic            |
+| Works with | Primitives (numbers, strings) | Any type (including objects) |
+| Accepts    | A value                       | A function                   |
+| Returns    | Index or -1                   | Index or -1                  |
+
+
+### null vs undefined
+Null means a variable has no value and undefined means it's yet to assign a value to this variable.
+
+### for each vs .map
+.map returns new array and for each returns undefined.
+Can for each print UI?
+Yes but you must use it with DOM methods like iterate fruits array to document.createElement("li") for each item and append them to ul element.
+
+
 ## HTML
 
 ## CSS
@@ -319,20 +338,3 @@ console.log(sumOfUniqueNumbers([1, 2, 3, 4, 3,4]))
 
 React Native New Architecture
 React Native Bridge
-### indexOf vs findIndex
-In findIndex, a cb is passed to this function that passes each item and check against our given condition.
-| Feature    | `indexOf`                     | `findIndex`                  |
-| ---------- | ----------------------------- | ---------------------------- |
-| Use case   | Simple values                 | Conditional logic            |
-| Works with | Primitives (numbers, strings) | Any type (including objects) |
-| Accepts    | A value                       | A function                   |
-| Returns    | Index or -1                   | Index or -1                  |
-
-
-### null vs undefined
-Null means a variable has no value and undefined means it's yet to assign a value to this variable.
-
-### for each vs .map
-.map returns new array and for each returns undefined.
-Can for each print UI?
-Yes but you must use it with DOM methods like iterate fruits array to document.createElement("li") for each item and append them to ul element.
