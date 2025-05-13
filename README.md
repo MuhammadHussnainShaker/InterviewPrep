@@ -57,10 +57,10 @@ user is authenticated, else returns the login component.
 
 ## Node.js Topics
 ### Stream vs buffer?
-####Buffers
+#### Buffers
 What? Temporary storage for binary data (chunks) in memory.
 When? Used when you need the complete data before processing (e.g., reading a small file).
-####Streams
+#### Streams
 What? Process data chunk-by-chunk as it arrives (no full load).
 When? Ideal for large files, real-time data (e.g., video streaming, logs).
 
