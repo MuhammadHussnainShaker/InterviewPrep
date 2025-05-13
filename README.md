@@ -55,8 +55,14 @@ and returns a new enhanced component.
 For example we pass Dashboard component to a function that returns Dashbaord component if
 user is authenticated, else returns the login component.
 
-### Node.js Topics
-## Stream vs buffer?
+## Node.js Topics
+### Stream vs buffer?
+####Buffers
+What? Temporary storage for binary data (chunks) in memory.
+When? Used when you need the complete data before processing (e.g., reading a small file).
+####Streams
+What? Process data chunk-by-chunk as it arrives (no full load).
+When? Ideal for large files, real-time data (e.g., video streaming, logs).
 
 ## JavaScript Topics
 
