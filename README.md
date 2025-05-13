@@ -129,6 +129,11 @@ Encapsulation main attributes aur methods thighly coupled hote hain (jaise capsu
 ### So how the object interact with each other? 
 Objects interaction k liye interface use krte hain. Jese What is your name operation se hi ham Ali se interact kr ke uska naam jan skte hain.
 
+### Abstraction
+Abstraction means capture only those details about an object that are relevant to current perspective and hide unnecessary details.
+For example, consider a car. From a driver's perspective, the essential details of a car might include the steering wheel, accelerator pedal, brake pedal, and gear shift. These details are important because they are directly related to the car's function as a vehicle. However, details such as the engine, transmission, and suspension are less relevant to the driver's perspective, and may be abstracted away in the car's design.
+Like developer just have to focus on calling the function talk() irrespective of how talk() method works.
+
 ### What is polymophism?
 ### Overloading vs Overriding
 If we create multiple functions with same name but different type or number of arguments in the same class, it is known as overloading.
