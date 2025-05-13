@@ -8,7 +8,28 @@ A repository to store resource to prepare for Software Engineering interviews.
 Because changes in state variable initiates re-render which would not have possible with simple variable.
 
 ### Context API
-#### useReducer
+Context API is React’s built-in solution for prop drilling—it lets you share data (like themes, user auth) across components without manually passing props at every level.
+```js
+// 1. Create Context
+const ThemeContext = React.createContext('light'); 
+
+// 2. Provide Data (Wrap Parent)
+function App() {
+  return (
+    <ThemeContext.Provider value="dark">
+      <Header />
+    </ThemeContext.Provider>
+  );
+}
+
+// 3. Consume Data (Child)
+function Header() {
+  const theme = useContext(ThemeContext); // "dark"
+  return <h1 className={theme}>Hello!</h1>;
+}
+```
+### useReducer
+useReducer provides a state management and update mechanism that works very well with the Context API. I.E. addition of ability to dispatch state update functions.
 
 ### useEffect
 useEffect aik React ka hook hai jo jab bhi kisi component ka render hota hai ya uska koi data ya state change hota hai, us waqt kuch kaam karne ke liye use hota hai. Yeh aik tareeqa hai kisi bhi function ko chalane ka jab bhi koi zaroori cheez tabdeel hoti hai ya jab component pehli dafa load hota hai.
