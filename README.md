@@ -122,6 +122,13 @@ Yes but you must use it with DOM methods like iterate fruits array to document.c
 ## CSS
 
 ## OOP
+
+### Encapsulation:
+Encapsulation is like parda. Dekhane wali chezain dekhai jain aur baki chupai jaen.
+Encapsulation main attributes aur methods thighly coupled hote hain (jaise capsule main do chezain band kr di jaiyen) aur ye dono outer world se hidden hote hain. Mtlb information hiding ke phenomena ko satisfy krte hain.
+### So how the object interact with each other? 
+Objects interaction k liye interface use krte hain. Jese What is your name operation se hi ham Ali se interact kr ke uska naam jan skte hain.
+
 ### What is polymophism?
 ### Overloading vs Overriding
 If we create multiple functions with same name but different type or number of arguments in the same class, it is known as overloading.
@@ -142,6 +149,9 @@ It has a node and a pointer to the next node.
 
 #### Doubly
 It has a node and two pointers to the next and previous nodes.
+
+#### Circular
+It's last element's pointer points to the first element of the linked list forming a circular like structure.
 
 Time complexity between array and linked list.
 
